@@ -1,0 +1,58 @@
+@font-face {
+    font-family: poppins;
+    src: url("../assets/fonts/Poppins-Regular.ttf")
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+p, a {
+    font-family: "poppins";
+}
+
+:root {
+    --main-color-blue: #000992;
+}
+
+header {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header img.logo {
+    height: 7vh;
+    width: 30vw;
+}
+
+header .nav-div {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header .nav-div a {
+    text-decoration: none;
+    color: var(--main-color-blue);
+    font-size: medium;
+    padding: 10px;
+    background-color: white;
+}
+
+header .nav-div a:hover {
+    color: white;
+    background-color: var(--main-color-blue);
+    border-radius: 5px;
+    transition: .1s;
+}
+
+main {
+    height: 100vh;
+    background-color: red;
+}
